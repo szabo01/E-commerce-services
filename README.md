@@ -35,7 +35,7 @@ O netflix Eureka é um módulo do Netflix OSS, o qual permite que serviços seja
 </ol>
 # Referências:
 <ol>
-  <li>lelodois/spring-cloud</li>
+  <li>https://github.com/lelodois/spring-cloud</li>
   <li>https://emmanuelneri.com.br/2018/05/02/criando-proxy-de-apis-com-spring-cloud-zuul-e-eureka/</li>
   <li>https://www.luiztools.com.br/post/o-que-e-um-micro-servico-ou-microservice/</li>
 </ol>
