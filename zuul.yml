@@ -1,0 +1,30 @@
+server:
+ port: 8889
+  
+eureka:
+ instance:
+  hostname: localhost
+  port: 8081
+ client:
+  registerWithEureka: true
+  fetchRegistry: false
+  serviceUrl:
+   defaultZone: http://${eureka.instance.hostname}:${eureka.instance.port}/eureka/
+ 
+zuul:
+ routes:
+  accounts:
+   path: /accounts/**
+   url: http://localhost:8081/accounts
+  inventories:
+   path: /inventories/**
+   url: http://localhost:8083/inventory
+  orders:
+   path: /orders/**
+   url: http://localhost:8085/order
+  recommendation:
+   path: /recommendation/**
+   url: http://localhost:8086/recommendation
+  shipping:
+   path: /shipping/**
+   url: http://localhost:8084/shipping     
