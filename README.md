@@ -33,7 +33,8 @@ O netflix Eureka é um módulo do Netflix OSS, o qual permite que serviços seja
   <li>http://localhost:6060/zuul</li>
 
 </ol>
-# Referências:
+
+# Referências
 <ol>
   <li>https://github.com/lelodois/spring-cloud</li>
   <li>https://emmanuelneri.com.br/2018/05/02/criando-proxy-de-apis-com-spring-cloud-zuul-e-eureka/</li>
